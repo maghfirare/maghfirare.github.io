@@ -718,12 +718,13 @@ body.home-page .imbox {
     text-align: center;
     font-family: "Open Sans";
     font-size: 1.1em;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #00a57a; }
     @media screen and (min-width: 480px) {
       .main-footer__socialtext {
         display: inline-block;
         vertical-align: middle;
-        margin-right: 2em; } }
+        margin-right: 3em; } }
   .main-footer__socialcontent {
     display: block;
     text-align: center; }
@@ -733,7 +734,8 @@ body.home-page .imbox {
         vertical-align: middle;
         margin-right: 1em; } }
   .main-footer__socialico {
-    display: inline-block; }
+    display: inline-block;
+    margin: .3em; }
   .main-footer__creator {
     font-family: "Open Sans";
     text-align: center;
