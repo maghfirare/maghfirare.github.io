@@ -1,0 +1,36 @@
+{
+	"items" : [
+	{
+		"img": "images/art/1.jpg",
+		"alt": "1"
+	},
+	{
+		"img": "images/art/2.jpg",
+		"alt": "2"
+	},
+	{
+		"img": "images/art/3.jpg",
+		"alt": "3"
+	},
+	{
+		"img": "images/art/4.jpg",
+		"alt": "4"
+	},
+	{
+		"img": "images/art/5.jpg",
+		"alt": "5"
+	},
+	{
+		"img": "images/art/6.jpg",
+		"alt": "6"
+	},
+	{
+		"img": "images/art/7.jpg",
+		"alt": "7"
+	},
+	{
+		"img": "images/art/8.jpg",
+		"alt": "8"
+	}
+	]
+}
