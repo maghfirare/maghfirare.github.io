@@ -72,12 +72,14 @@ body.home-page .imbox {
           display: block; } }
   .main-banner__cover {
     display: block;
-    width: 100%; }
+    width: 100%;
+    margin: 2em auto; }
     @media screen and (min-width: 480px) {
       .main-banner__cover {
         display: flex;
         justify-content: center;
-        align-items: center; } }
+        align-items: center;
+        margin: 0; } }
     @media screen and (min-width: 960px) {
       .main-banner__cover {
         margin: 10% 0 8%; } }
@@ -276,13 +278,16 @@ body.home-page .imbox {
       transform: rotateY(0deg);
       opacity: 1; }
   .main-navbar__content {
-    float: right;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    list-style: none;
-    height: 100%;
-    margin: 0; }
+    display: none; }
+    @media screen and (min-width: 480px) {
+      .main-navbar__content {
+        float: right;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        list-style: none;
+        height: 100%;
+        margin: 0; } }
   .main-navbar__item {
     font-family: 'Roboto Condensed';
     font-weight: 700;
